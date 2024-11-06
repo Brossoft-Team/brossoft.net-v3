@@ -2,15 +2,21 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      fontFamily: {
+        quicksand: ['Quicksand', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#F9F5F2",
+        primaryColor: "#F7CB45",
+        secondaryColor: "#1F1F1F",
+        textColor: "#282825",
+        textSecondaryColor: "#52514e",
+        secondaryText: '#your-color-here', 
       },
       screens: {
         sm: '567px',
@@ -21,7 +27,12 @@ const config: Config = {
         '3xl': '1920px',
       },
     },
+    container: {
+      center: true,
+      padding: "1rem",
+    },
   },
   plugins: [],
 };
+
 export default config;
