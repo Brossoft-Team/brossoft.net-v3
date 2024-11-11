@@ -9,12 +9,12 @@ const config: Config = {
   	extend: {
   		fontFamily: {
   			quicksand: ['Quicksand', 'sans-serif'],
-  			poppins: ['Poppins', 'sans-serif']
+  			ephesis: ['Ephesis', 'cursive']
   		},
   		colors: {
   			background: 'hsl(var(--background))',
   			primaryColor: '#F7CB45',
-  			secondaryColor: '#1F1F1F',
+  			secondaryColor: '#B03A48',
   			textColor: '#282825',
   			textSecondaryColor: '#52514e',
   			secondaryText: '#your-color-here',
