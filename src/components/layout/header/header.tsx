@@ -1,10 +1,9 @@
 "use client"
 
-import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
+import React, {useEffect, useState} from 'react';
 import Link from 'next/link';
-import { cn } from '@/app/library/utils';
-import { usePathname } from 'next/navigation';
+import {usePathname} from 'next/navigation';
+import {cn} from "@/lib/utils";
 
 
 export default function Header(): JSX.Element {
@@ -22,19 +21,19 @@ export default function Header(): JSX.Element {
         <header className="w-full flex justify-between h-[75px] items-center px-[75px]">
             <ul className='flex space-x-8'>
                 <li>
-                    <Link href='/' className='text-md'>Home</Link>
+                    <Link href={'/'} className='text-md'>Home</Link>
                 </li>
                 <li>
-                    <Link href='/about-us' className='text-md'>About Us</Link>
+                    <Link href={'/about-us'} className='text-md'>About Us</Link>
                 </li>
             </ul>
             <div className={cn("logo text-xl", animate ? 'headerAnimate' : 'header' )}>BROSSOFT</div>
             <ul className='flex space-x-8'>
                 <li>
-                    <Link href='/team' className='text-md'>Team</Link>
+                    <Link href={'/team'} className='text-md'>Team</Link>
                 </li>
                 <li>
-                    <Link href='/works' className='text-md'>Works</Link>
+                    <Link href={'/works'} className='text-md'>Works</Link>
                 </li>
             </ul>
         </header>
