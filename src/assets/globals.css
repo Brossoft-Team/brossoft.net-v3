@@ -42,3 +42,17 @@ a:hover {
 }
 
 
+.swiper {
+  padding: 50px 0;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
