@@ -1,6 +1,6 @@
 import React from "react";
 
-interface PortfolioDetailsProps {
+interface WorkDetailsProps {
   title: string;
   id: number;
   details: string;
@@ -8,7 +8,7 @@ interface PortfolioDetailsProps {
   technologies: string[];
 }
 
-const PortfolioDetails: React.FC<PortfolioDetailsProps> = ({
+const WorkDetails: React.FC<WorkDetailsProps> = ({
   title,
   details,
   image,
@@ -30,4 +30,4 @@ const PortfolioDetails: React.FC<PortfolioDetailsProps> = ({
   );
 };
 
-export default  PortfolioDetails;
+export default  WorkDetails;

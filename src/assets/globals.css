@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: 'Ephesis';
   src: url('./Ephesis-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src:  url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

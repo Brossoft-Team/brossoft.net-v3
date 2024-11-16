@@ -1,6 +1,6 @@
 import React from "react";
 import projects from "../../lib/data/project";
-import PortfolioCard from "@/components/layout/portfolio/portfolio-card";
+import WorkCard from "@/components/layout/work/work-card";
 
 const Works = () => {
   return (
@@ -8,7 +8,7 @@ const Works = () => {
      
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {projects.map((project) => (
-          <PortfolioCard
+          <WorkCard
             key={project.id}
             id={project.id} 
             title={project.title}

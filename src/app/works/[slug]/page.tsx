@@ -1,7 +1,7 @@
 
   import { notFound } from "next/navigation";
   import projects from "../../../lib/data/project";
-  import PortfolioDetails from "@/components/layout/portfolio/portfolio-details";
+  import WorkDetails from "@/components/layout/work/work-details";
   
   interface ProjectPageProps {
     params: {
@@ -32,7 +32,7 @@
   
     return (
       <div className="max-w-6xl mx-auto p-6">
-        <PortfolioDetails
+        <WorkDetails
           key={project.id}
           id={project.id}
           title={project.title}
