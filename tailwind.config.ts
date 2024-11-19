@@ -9,7 +9,9 @@ const config: Config = {
   	extend: {
   		fontFamily: {
   			quicksand: ['Quicksand', 'sans-serif'],
-  			ephesis: ['Ephesis', 'cursive']
+  			ephesis: ['Ephesis', 'cursive'],
+			notosans: ['Noto Sans', 'sans-serif']
+
   		},
   		colors: {
   			background: 'hsl(var(--background))',
