@@ -7,7 +7,7 @@ const AboutUs: React.FC = () => {
         <h1 ><span className='text-transparent bg-clip-text bg-gradient-to-r from-slate-700 to-purple-400'>merheba</span></h1> 
         <h1 className="text-5xl md:text-6xl font-serif mb-8">ABOUT US</h1>
         <div className="text-lg leading-relaxed space-y-6">
-          <p  text-gradient-to-r from-blue-600 to-red-400 >
+          <p  >
             Headquartered in Los Angeles, our team is dedicated to driving conversions and delivering tangible value to our clients.
             We are fueled by our passion for creating distinctive experiences that set you apart from the sea of ordinary brands in today's market.
           </p>
@@ -27,5 +27,3 @@ const AboutUs: React.FC = () => {
 };
 
 export default AboutUs;
-
-
