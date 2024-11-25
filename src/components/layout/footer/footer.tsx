@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Footer: React.FC = () => {
   return (
     <footer className="flex justify-between items-center py-14 px-40 mx-auto border-[1px] border-t-black border-solid">
