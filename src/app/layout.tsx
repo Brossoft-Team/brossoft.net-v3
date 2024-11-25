@@ -1,6 +1,7 @@
 import type {Metadata} from "next";
 import "@/assets/globals.css";
 import Header from "@/components/layout/header/header";
+import Footer from "@/components/layout/footer/footer";
 
 
 export const metadata: Metadata = {
@@ -18,7 +19,6 @@ export default function RootLayout({children}: Readonly<{
         >
         <Header/>
         {children}
-        
         </body>
         </html>
     );
