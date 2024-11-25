@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
 
       <div className="text-right">
         <p className="text-xl text-gray-500">
-          © 2019-∞{" "}
+          © 2019-∞
           <span className="font-semibold text-[#3d3d3d]">Brossoft AS.</span>
         </p>
         <p className="text-sm text-gray-600">
@@ -23,8 +23,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-<div>
-  <p className="text-sm text-gray-600  flex text-center">
-    Copyright © Brossoft. All Rights Reserved.
-  </p>
-</div>;
+
