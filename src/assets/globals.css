@@ -48,6 +48,21 @@ a:hover {
   100% { opacity: 1; }
 }
 
+.mySwiper {
+  position: relative;
+  cursor: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+#expert-at {
+  cursor: none
+}
+
+.mySwiper:hover {
+  cursor: none;
+}
 
 .swiper {
   padding: 50px 0;
