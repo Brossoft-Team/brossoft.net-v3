@@ -10,7 +10,7 @@ const Pricing = () => {
         <h2 className="text-3xl font-bold mb-6 tracking-wider ">$1,000</h2>
         <ul className="flex-1 space-y-4 text-sm text-white">
           <li className="">  <span className="text-red-600">✅</span> One request at a time</li>
-          <li>✔️ Unlimited revisions</li>
+          <li>✔️ Unlimited revisionsss</li>
           <li>✔️ 2 days average turnaround</li>
           <li>✔️ Design + development</li>
           <li>✔️ 24/7 slack communication</li>
