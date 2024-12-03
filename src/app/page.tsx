@@ -3,6 +3,7 @@ import FAQ from "@/components/faq";
 import SwiperComp from "@/components/home/swiper/swiper";
 import Pricing from "@/components/home/pricing-list/pricing-list";
 import ExpertAt from "@/components/expert-at";
+import Contact from "@/components/layout/contact/contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Pricing/>
         <SwiperComp/>
         <FAQ/>
+        <Contact/>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
