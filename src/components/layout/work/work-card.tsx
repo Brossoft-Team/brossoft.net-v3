@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 interface WorkCardProps {
   id: number;
@@ -17,15 +16,15 @@ const WorkCard: React.FC<WorkCardProps> = ({
   slug,
 }) => {
   return (
-    <div className="relative group rounded-2xl overflow-hidden shadow-lg w-full h-80">
+    <div className="relative group mb-4 break-inside-avoid rounded-3xl shadow-lg overflow-hidden space-y-10">
       <img
         src={image}
         alt={title}
-        className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+        className="w-full h-auto object-cover rounded-lg transition-transform duration-500 group-hover:scale-110"
       />
 
-      <div className="absolute bottom-2 left-2 right-2">
-        <button className="flex items-center justify-between w-full  bg-black/80 text-white px-7 py-2 rounded-full backdrop-blur-md transition-all duration-500 group-hover:translate-y-[-12px] group-hover:bg-black/80">
+      <div className="absolute inset-x-0 bottom-2 px-2">
+        <button className="flex items-center justify-between w-full bg-black/80 text-white px-5 py-2 rounded-full backdrop-blur-md transition-all duration-500">
           <span className="text-base">{title}</span>
           <span className="ml-5 text-xl">→</span>
         </button>
@@ -40,5 +39,4 @@ const WorkCard: React.FC<WorkCardProps> = ({
     </div>
   );
 };
-
-export default WorkCard;
+ export default  WorkCard;
