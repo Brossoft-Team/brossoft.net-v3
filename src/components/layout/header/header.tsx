@@ -23,40 +23,38 @@ export default function Header(): JSX.Element {
         <span className="text-3xl font-bold font-ephesis ml-6">B</span>
       </div>
 
-      <>
-        <ul className="hidden md:flex space-x-8">
-          <li>
-            <Link href={"/"} className="text-md">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link href={"/about-us"} className="text-md">
-              About Us
-            </Link>
-          </li>
-        </ul>
-        <div
-          className={cn(
-            "logo text-xl font-bold hidden md:flex",
-            animate ? "headerAnimate" : "header"
-          )}
-        >
-          BROSSOFT
-        </div>
-        <ul className="hidden md:flex space-x-8">
-          <li>
-            <Link href={"/team"} className="text-md">
-              Team
-            </Link>
-          </li>
-          <li>
-            <Link href={"/works"} className="text-md">
-              Works
-            </Link>
-          </li>
-        </ul>
-      </>
+      <ul className="hidden md:flex space-x-8">
+        <li>
+          <Link href={"/"} className="text-md">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link href={"/about-us"} className="text-md">
+            About Us
+          </Link>
+        </li>
+      </ul>
+      <div
+        className={cn(
+          "logo text-xl font-bold hidden md:flex",
+          animate ? "headerAnimate" : "header"
+        )}
+      >
+        BROSSOFT
+      </div>
+      <ul className="hidden md:flex space-x-8">
+        <li>
+          <Link href={"/team"} className="text-md">
+            Team
+          </Link>
+        </li>
+        <li>
+          <Link href={"/works"} className="text-md">
+            Works
+          </Link>
+        </li>
+      </ul>
     </header>
   );
 }
